@@ -11,7 +11,6 @@
 
 .wrapper {
 	width: 85%;
-	background-color: black;
 	margin: 0 auto;
 }
 
@@ -19,6 +18,15 @@
 	clear: both;
 	content: "";
 	display: table;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+h2, h3, .btn, #hero-head {
+	font-family: 'Special Elite', cursive;
 }
 
 img {
@@ -30,14 +38,51 @@ img {
 	width: 100%;
 }
 
-.red {
-	height: 50px;/**Delete this**/
+/**.red {
+	height: 50px;
 	Background-color: red;
-}
+}**/
 
 ul {
 	padding: 0;
 }
+
+/**LOGO**/
+
+h1, h4 {
+	background-image: url(../img/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 65px;
+}
+	
+
+/**MEDIA**/
+
+#john, #jane, #mary, #jon {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 250px;
+}
+
+#john {
+	background-image: url(../img/profile-john.jpg);
+}
+
+#jane {
+	background-image: url(../img/profile-jane.jpg);
+}
+
+#mary {
+	background-image: url(../img/profile-mary.jpg);
+}
+
+#jon {
+	background-image: url(../img/profile-jon.jpg);
+}
+
+
 
 
 @media (min-width: 1024px) {
