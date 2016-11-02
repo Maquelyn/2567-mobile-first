@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	font-size: 16px;
+}
+
 *, *:after, *:before {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -21,6 +25,7 @@
 }
 
 * {
+	color: #444;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
@@ -45,6 +50,53 @@ img {
 
 ul {
 	padding: 0;
+	list-style: none;
+}
+
+#hero-bg-color {
+	background-color: rgba(125,214,218,.75);
+	padding: 30px 0;
+}
+
+#team { 
+	background-color: #c2eeef;
+}
+
+/** Typography **/
+
+p {
+	font-size: .8rem;
+}
+
+/** BUTTONS **/
+
+a {
+	text-decoration: none;
+}
+
+
+/** HEADERS **/
+
+#hero-head {
+	font-size: 4rem;
+	margin: 0;
+}
+
+.intro-p {
+	font-size: 1.1rem;
+}
+
+h2 {
+	font-size: 2.2rem;
+	color: #1fa7b2;
+}
+
+#team h2 {
+	color: #184d55;
+}
+
+h3 {
+	font-size: 1.3rem;
 }
 
 /**LOGO**/
@@ -58,6 +110,14 @@ h1, h4 {
 	
 
 /**MEDIA**/
+
+#hero {
+	background-image: url(../img/hero.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0;
+}
 
 #john, #jane, #mary, #jon {
 	background-position: center;
