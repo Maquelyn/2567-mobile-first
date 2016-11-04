@@ -64,7 +64,7 @@ ul {
 
 /** Typography **/
 
-p {
+p, a {
 	font-size: .8rem;
 }
 
@@ -72,6 +72,10 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+a:hover {
+	color: #1fa7b2;
 }
 
 
