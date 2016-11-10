@@ -78,6 +78,26 @@ a:hover {
 	color: #1fa7b2;
 }
 
+.btn {
+	display: inline-block;
+}
+
+.btn a {
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #98d6da;
+	color: #444444;
+	margin: 50px 20px;
+	padding: 20px 50px;
+}
+
+.btn a:hover {
+	background-color: #1fa7b2;
+	color: #FFFFFF;
+}
+
 
 /** HEADERS **/
 
@@ -101,6 +121,12 @@ h2 {
 
 h3 {
 	font-size: 1.3rem;
+}
+
+/**FOOTER**/
+
+footer {
+	background-color: #184d55;
 }
 
 /**LOGO**/
@@ -168,6 +194,10 @@ h1, h4 {
 		padding: 0;
 	}
 	
+	section {
+		padding: 100px 0;
+	}
+	
 	.block-center {
 		float: none;
 		margin: 0 auto;
@@ -176,6 +206,8 @@ h1, h4 {
 	.f-right {
 		float: right;
 	}
+	
+	/**WIDTHS**/
 	
 	.col-1-2 {
 		width: 50%;
