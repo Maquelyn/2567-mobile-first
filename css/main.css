@@ -149,7 +149,7 @@ h1, h4 {
 	padding: 70px 0;
 }
 
-#john, #jane, #mary, #jon {
+#john, #jane, #mary, #jon, #work-icon-1, #work-icon-2, #work-icon-3, #work-icon-4 {
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -172,7 +172,25 @@ h1, h4 {
 	background-image: url(../img/profile-jon.jpg);
 }
 
+#work-icon-1, #work-icon-2, #work-icon-3, #work-icon-4 {
+	height: 100px;
+}
 
+#work-icon-1 {
+	background-image: url(../img/print.png);
+}
+
+#work-icon-2 {
+	background-image: url(../img/interactive.png);
+}
+
+#work-icon-3 {
+	background-image: url(../img/app.png);
+}
+
+#work-icon-4 {
+	background-image: url(../img/branding.png);
+}
 
 
 @media (min-width: 1024px) {
